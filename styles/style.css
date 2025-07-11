@@ -74,3 +74,28 @@ main section{
     width: 400px;
     border-radius: 48px;
 }
+/* Stats Styles */
+.stats{
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+}
+.stats-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stats-section-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.stat-number{
+    color: #4E47FF;
+    font-size: 65px;
+    font-weight: 800;
+}
+.stat-description{
+    margin-top: -50px;
+    color: rgba(0, 0, 0, 0.5);
+}
