@@ -17,6 +17,10 @@
     border: none;
     border-radius: 8px;
 }
+.btn-primary:hover{
+    background-color: #1434A4;
+    transition: ease .3s;
+}
 .text-primary{
     color: #4E47FF;
 }
