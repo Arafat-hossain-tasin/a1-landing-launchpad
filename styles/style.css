@@ -160,3 +160,32 @@ footer{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
 }
+/* Connect Styles */
+.connect{
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+}
+.conncet-column{
+    width: 50%;
+}
+.connect-title{
+    font-size: 95px;
+    font-weight: bold;
+}
+.connect input[type="text"], .connect input[type="email"], .connect textarea{
+    height: 50px;
+    border: 1px solid #F2EDED;
+    border-radius: 5px;
+    display: block;
+    width: 527px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+.connect-btn{
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
