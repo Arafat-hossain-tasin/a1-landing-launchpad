@@ -20,6 +20,15 @@
 .text-primary{
     color: #4E47FF;
 }
+.text-center{
+    text-align: center;
+}
+/* Header Styles */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    width: 100%;
+}
 /* Nav Styles */
 nav{
     display: flex;
@@ -30,4 +39,10 @@ nav{
 .nav-title{
     font-size: 34px;
     font-weight: 800;
+}
+/* Banner Styles */
+.banner-title{
+    margin-top: 130px;
+    font-size: 65px;
+    font-weight: bold;
 }
